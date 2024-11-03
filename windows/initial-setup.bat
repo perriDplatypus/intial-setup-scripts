@@ -14,20 +14,20 @@ if %install% == "y" do (
     echo %NL%%NL%Installing all packages%NL%
 
     echo Installing Notepad++
-    REM winget install --id=Notepad++.Notepad++  -e
+    winget install --id=Notepad++.Notepad++  -e
 
     echo ---------------------------------------------------------------------
     REM DEVELOPER SOFTWARE
     echo %NL%Installing Developer Environment
 
     echo %NL%%NL%Installing Firefox Developer Edition
-    REM winget install --id=Mozilla.Firefox.DeveloperEdition  -e
+    winget install --id=Mozilla.Firefox.DeveloperEdition  -e
 
     echo %NL%%NL%Installing Git
-    REM winget install --id=Git.Git  -e
+    winget install --id=Git.Git  -e
 
     echo %NL%%NL%Installing Visual Studio Code
-    REM winget install --id=Microsoft.VisualStudioCode  -e
+    winget install --id=Microsoft.VisualStudioCode  -e
 )
 
 
@@ -47,19 +47,19 @@ if %game% == "y" do (
     echo %NL%Installing Gaming Software
 
     echo %NL%%NL%Installing Steam
-    REM winget install --id=Valve.Steam  -e --location "E:\Launchers\"
+    winget install --id=Valve.Steam  -e --location "E:\Launchers\"
 
     echo %NL%%NL%Installing Epic Games
-    REM winget install --id=EpicGames.EpicGamesLauncher  -e --location "E:\Launchers\"
+    winget install --id=EpicGames.EpicGamesLauncher  -e --location "E:\Launchers\"
 
     echo %NL%%NL%Installing Ubisoft Connect
-    REM winget install --id=Ubisoft.Connect  -e --location "E:\Launchers\"
+    winget install --id=Ubisoft.Connect  -e --location "E:\Launchers\"
 
     echo %NL%%NL%Installing EA Launcher
-    REM winget install --id=ElectronicArts.EADesktop  -e --location "E:\Launchers\"
+    winget install --id=ElectronicArts.EADesktop  -e --location "E:\Launchers\"
 
     echo %NL%%NL%Installing Discord
-    REM winget install --id=Discord.Discord  -e
+    winget install --id=Discord.Discord  -e
 )
 
 echo %NL%%NL%%NL%---------------------------------------------------------------------
